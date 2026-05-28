@@ -1,0 +1,4 @@
+arnar ← ⎕
+hannes ← ⎕
+
+⎕ ← arnar + hannes
