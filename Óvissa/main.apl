@@ -1,5 +1,5 @@
 utterance ← ⍞
 
-uncertainty ← ≢utterance
+uncertainty ← ≢ utterance
 
 ⎕ ← uncertainty
