@@ -1,0 +1,5 @@
+line ← ⍞
+
+reversedLine ← ⌽ line
+
+⎕ ← reversedLine
