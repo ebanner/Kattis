@@ -6,7 +6,6 @@ presents ← ↑ {(' '≠⍵) ⊆ ⍵} ¨ lines
 
 names ← presents[;1]
 
-scores ← presents[;2]
-scores ← ⍎ ¨ scores
+scores ← ⍎ ¨ presents[;2]
 
 ⎕ ← ⊃ names[⍒ scores]
