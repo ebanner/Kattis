@@ -1,0 +1,5 @@
+n ← ⎕
+
+periods ← {⎕} ¨ ⍳n
+
+⎕ ← +/ ×/ ↑ periods
