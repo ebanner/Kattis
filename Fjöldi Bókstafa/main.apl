@@ -2,6 +2,6 @@ line ← ⍞
 
 alpha ← 'abcdefghijklmnopqrstuvwxyz'
 
-length ← ≢ ((⎕C line) ∊ alpha) / line
+length ← ≢ line /⍨ (⎕C line) ∊ alpha
 
 ⎕ ← length
