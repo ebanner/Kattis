@@ -1,0 +1,4 @@
+digits←⍞
+reversed←⌽digits
+⎕←reversed
+
