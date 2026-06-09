@@ -1,0 +1,2 @@
+line←⍞
+⎕←+/∨⌿'aeiou'∘.=(⎕C)line
