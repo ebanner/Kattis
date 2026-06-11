@@ -1,3 +1,4 @@
 line←⍞
 m d←' '(≠⊆⊢)line
-⎕←⊃'nope' 'yup'[1+m(⍎d)≡'OCT' 31]
+d←(⍎d)
+⎕←⊃'nope' 'yup'[1+(m d≡'OCT' 31)∨(m d≡'DEC' 25)]
