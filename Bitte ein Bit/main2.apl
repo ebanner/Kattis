@@ -1,0 +1,2 @@
+bits←⍞
+⎕←bits[?≢bits]
