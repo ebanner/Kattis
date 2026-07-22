@@ -1,0 +1,1 @@
+•Show "Takk fyrir mig!"
